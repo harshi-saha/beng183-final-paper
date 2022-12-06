@@ -41,13 +41,14 @@ This report will provide details on the biological context of Hi-C, the workflow
 ## Genome Organization: 
 
 
-In order to understand Hi-C, we must give context for the technology. Because Hi-C aims to analyze the organization of the genome, we will first talk about genome organization. 
+In order to understand Hi-C, we must give context for the technology.
+
+Because Hi-C aims to analyze the organization of the genome, we will first talk about genome organization. 
 
 <img src="images/genome-organization.png" width="500" height="200" />
 
 ###### Image Source [[1]](#spatial-genome-organization-from-development-to-disease-frontiers-in-cell-and-developmental-biology-718)
 
-&nbsp;
 
 #
 ### Chromosome Territories: 
