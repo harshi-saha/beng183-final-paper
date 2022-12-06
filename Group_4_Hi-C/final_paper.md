@@ -10,7 +10,7 @@ Group 4: Harshita Saha, Jordan Burkhardt, Carlos Garcia Padilla
 
 This paper will provide details on the biological context of Hi-C, the workflow process, and an overview of Hi-C Data Analysis. 
 
-The different sections of the report are listed and linked below for easy navigation:
+The different sections of the paper are listed and linked below for easy navigation:
 
 - [Genome Organization](#genome-organization): 
   - [Chromosome Territories](#chromosome-territories)
@@ -69,13 +69,13 @@ Chromatin from each chromosome tends to be grouped in its own spatially distinct
 ### Chromatin Compartments:
 #
 
-Across the entire nucleus, chromosomes have regions with more open or closed chromatin. [[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180)
+Across the entire nucleus, chromosomes have regions with more open or closed chromatin [[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180).
 
 A compartments are those that are more open, gene-rich, and have higher transcription levels. These regions are more active, and are associated with euchromatin. 
 
 B compartments are those that are more closed, gene-poor, and have lower transcription levels. These regions are more inactive, and are associated with heterochromatin. These tend to exist closer to the lamina or the periphery of the nucleus, but can also exist further within the nucleus. 
 
-A compartments tend to interact with A compartments, while B compartments tend to interect with B compartments.[[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180)
+A compartments tend to interact with A compartments, while B compartments tend to interect with B compartments [[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180).
 
 <img src="images/compartments.png" width="260" height="200" />
 
@@ -360,20 +360,21 @@ These enriched dots represent chromatin loops that result from the interaction o
 ---
 ## Additional Resources:
 
+In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. For genome organization, chromosome territories, A/B compartments, TADs, and chromatin loops were discussed. Then the workflow of Hi-C was desrcibed, and was comapred to wrokflows for 3C and 4C. Finally, an overview of hi_C Data Analysis was provided, pertaining to all the units of genome organization discussed in this paper.   
 
-[ADD ANOTHER BETTER SUMMARY HERE!]
-
-In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. A visual overview of these topics and their relation to each other can be seen below.
+A visual summary of these topics and their relation to each other can be seen below.
 
 <img src="images/summary.png" width="260" height="300" />
 
 ###### Image Source [[19]](#nuclear-compartments-genome-folding-and-enhancer-promoter-communication-international-review-of-cell-and-molecular-biology-315183-244)
 
-[ADD ANOTHER BETTER IMAGE HERE!]
+<img src="images/summary-2.png" width="260" height="350" />
+
+###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678))
 
 &nbsp;
 
-In addition, these resources provide more detail about different aspects of Hi-C, and are valuable in gaining a more in depth understanding of the technology than can be covered in this report.
+In addition, these resources provide more detail about different aspects of Hi-C, and are valuable in gaining a more in depth understanding of the technology than can be covered in this paper.
 
 - [Overview of Hi-C](https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pdf) from Harvard Medical School.
 - [Introduction to Hi-C](https://www.youtube.com/watch?v=Hk5ixO7Tb24&t=800s) from STAT 115 at Harvard University.
