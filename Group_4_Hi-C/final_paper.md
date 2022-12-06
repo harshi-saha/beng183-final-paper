@@ -9,7 +9,6 @@ Group 4: Harshita Saha, Jordan Burkhardt, Carlos Garcia Padilla
 
 This report will provide details on the biological context of Hi-C, the workflow process, and an overview of Hi-C Data Analysis. The different sections of the report are listed and linked below for easy navigation:
 
-&nbsp;
 - [Genome Organization](#genome-organization): 
   - [Chromosome Territories](#chromosome-territories)
   - [Chromatin Compartments](#chromatin-compartments)
@@ -17,7 +16,6 @@ This report will provide details on the biological context of Hi-C, the workflow
   - [Chromatin Loops](#chromatin-loops)
   - [Purpose of Hi-C](#purpose-of-hi-c)
 
-&nbsp;
 - [Hi-C Workflow](#hi-c-workflow):
   - [Overview](#overview)
   - [Cross Linking](#cross-linking)
@@ -28,7 +26,6 @@ This report will provide details on the biological context of Hi-C, the workflow
   - [Ligation of Adapters and Amplification](#ligation-of-adapters-and-amplification)
   - [Comparison of Hi-C workflow to 3C and 4C](#comparison-of-hi-c-workflow-to-3c-and-4c)
 
-&nbsp;
 - [Hi-C Data Analysis](#hi-c-data-analysis):
   - [Data Setup](#data-setup)
   - [Chromosome Territories](#chromosome-territories-1)
@@ -36,7 +33,6 @@ This report will provide details on the biological context of Hi-C, the workflow
   - [TADs](#tads)
   - [Chromatin Loops](#chromatin-loops-1)
 
-&nbsp;
 - [Additional Resources](#additional-resources)
 - [References](#references)
 
