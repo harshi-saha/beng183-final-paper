@@ -360,17 +360,13 @@ These enriched dots represent chromatin loops that result from the interaction o
 ---
 ## Additional Resources:
 
-In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. For genome organization, chromosome territories, A/B compartments, TADs, and chromatin loops were discussed. Then the workflow of Hi-C was desrcibed, and was comapred to wrokflows for 3C and 4C. Finally, an overview of hi_C Data Analysis was provided, pertaining to all the units of genome organization discussed in this paper.   
+In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. For genome organization, chromosome territories, A/B compartments, TADs, and chromatin loops were discussed. Then the workflow of Hi-C was described, and was compared to wrokflows for 3C and 4C. Finally, an overview of hi_C Data Analysis was provided, pertaining to all the units of genome organization discussed in this paper.   
 
 A visual summary of these topics and their relation to each other can be seen below.
 
-<img src="images/summary.png" width="260" height="300" />
+<img src="images/summary.png" width="250" height="300" /><img src="images/summary-2.png" width="250" height="300" />
 
-###### Image Source [[19]](#nuclear-compartments-genome-folding-and-enhancer-promoter-communication-international-review-of-cell-and-molecular-biology-315183-244)
-
-<img src="images/summary-2.png" width="260" height="350" />
-
-###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678))
+###### Image Source [[19]](#nuclear-compartments-genome-folding-and-enhancer-promoter-communication-international-review-of-cell-and-molecular-biology-315183-244)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
 &nbsp;
 
