@@ -331,13 +331,15 @@ These enriched dots represent chromatin loops that result from the interaction o
 ---
 ## Additional Resources:
 
+In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. A visual overview of these topics and their relation to each other can be seen below.
+
 <img src="images/summary.png" width="260" height="300" />
 
 ###### Image Source [[19]](#nuclear-compartments-genome-folding-and-enhancer-promoter-communication-international-review-of-cell-and-molecular-biology-315183-244)
 
 &nbsp;
 
-These resources provide more detail about different aspects of Hi-C, and are valuable in gaining a more in depth understanding of the technology than can be covered in this report.
+In addition, these resources provide more detail about different aspects of Hi-C, and are valuable in gaining a more in depth understanding of the technology than can be covered in this report.
 
 - [Overview of Hi-C](https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pdf) from Harvard Medical School.
 - [Introduction to Hi-C](https://www.youtube.com/watch?v=Hk5ixO7Tb24&t=800s) from STAT 115 at Harvard University.
