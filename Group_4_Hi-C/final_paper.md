@@ -45,7 +45,6 @@ In order to understand Hi-C, we must give context for the technology. Because Hi
 
 ###### Image Source [[1]](#spatial-genome-organization-from-development-to-disease-frontiers-in-cell-and-developmental-biology-718)
 
-&nbsp;
 ### Chromosome Territories: 
 
 At the highest level, chromatin is organized in the nucleus such that each chromosome occupies its own subspace, known as chromosome territories. 
@@ -57,7 +56,6 @@ Chromatin from each chromosome tends to be grouped in its own spatially distinct
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)
 
 
-&nbsp;
 ### Chromatin Compartments:
 
 Across the entire nucleus, chromosomes have regions with more open or closed chromatin. [[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180)
