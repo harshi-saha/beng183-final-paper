@@ -276,7 +276,7 @@ The higher the count of reads in a certain position in the matrix, the more inte
 Hi-C contact matrices, or heat maps, can also be visualized as triangular maps, where the bottom boundary of the triangular map corresponds to the diagonal of the square matrix, as seen in the images below this one. 
 
 
-<img src="images/da-overview.png" width="1000" height="300" />
+<img src="images/da-overview.png" width="1000" height="320" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
@@ -292,7 +292,7 @@ Here the Hi-C contact matrix shows significantly higher intensity of colors, and
 Higher contact frequency across the diagonal displays that there are significantly more frequent intra-chromosome than inter-chromosome interactions [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678). This supports the existence and understanding of chromosome territories.
 
 
-<img src="images/da-territories.png" width="1000" height="300" />
+<img src="images/da-territories.png" width="1000" height="280" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
@@ -314,7 +314,7 @@ A compartments are characterized by more open chromatin and higher transcription
 B compartments, which are repressed and less active, are more likely to be on the borders of the nucleus, closer to the lamina, though regions inside can also be B compartments. A B switching can also occur, which is related to gene expression [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678).
 
 
-<img src="images/da-compartments.png" width="1000" height="300" />
+<img src="images/da-compartments.png" width="1000" height="280" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[15]](#mechanisms-and-functions-of-chromosome-compartmentalization-trends-in-biochemical-sciences-455385-396)
 
@@ -352,7 +352,7 @@ However, there are some instances where there is an enriched dot that can be see
 These enriched dots represent chromatin loops that result from the interaction of the corresponding loci in the matrix [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[20]](#a-3d-map-of-the-human-genome-at-kilobase-resolution-reveals-principles-of-chromatin-looping-cell-15971665-80). 
 
 
-<img src="images/da-loops.png" width="100" height="300" />
+<img src="images/da-loops.png" width="1000" height="300" />
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[16]](#the-energetics-and-physiological-impact-of-cohesin-extrusion-cell-2018-may-17-1735-1165–1178e20)
 
