@@ -47,7 +47,7 @@ In order to understand Hi-C, we must give context for the technology.
 
 Because Hi-C aims to analyze the organization of the genome, we will first talk about genome organization. 
 
-<img src="images/genome-organization.png" width="500" height="200" />
+<img src="images/genome-organization.png" width="600" height="240" />
 
 ###### Image Source [[1]](#spatial-genome-organization-from-development-to-disease-frontiers-in-cell-and-developmental-biology-718)
 
@@ -60,7 +60,7 @@ At the highest level, chromatin is organized in the nucleus such that each chrom
 
 Chromatin from each chromosome tends to be grouped in its own spatially distinct area, and DNA from each chromosome tends to interact with other loci within the chromosome, more frequently than with loci external to that chromosome. [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[4]](#3d-genome-from-technology-to-visualization).
 
-<img src="images/territories.png" width="260" height="200" />
+<img src="images/territories.png" width="300" height="230" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)
 
@@ -77,7 +77,7 @@ B compartments are those that are more closed, gene-poor, and have lower transcr
 
 A compartments tend to interact with A compartments, while B compartments tend to interect with B compartments [[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180).
 
-<img src="images/compartments.png" width="260" height="200" />
+<img src="images/compartments.png" width="300" height="230" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)
 
@@ -91,7 +91,7 @@ Focusing on chromosomes, we see TADs, Topologically Associating Domains. These s
 TADs are usually associated with more active genes, and regions within a TAD interact with each other more frequently than they do with regions outside the TAD [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678). 
 
 
-<img src="images/tad.png" width="260" height="320" />
+<img src="images/tad.png" width="300" height="360" />
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
@@ -105,7 +105,7 @@ On an even closer level, we see chromatin loops, which are protein or protein-co
 These structures are linked to the regulation of transcriptional processes, and engage in activation or repression depending on the location of loop formation. [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678). 
 
 
-<img src="images/loop.png" width="260" height="200" />
+<img src="images/loop.png" width="300" height="230" />
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
@@ -133,7 +133,7 @@ Although these technologies allow for information about DNA-DNA interactions to 
 Hi-C consists of systematically investigating genomic interactions and is all vs all, which means that it can detect all interactions between genomic loci, at a genome-wide level. It is specifically capable of looking at the tertiary level of genome organization, ranging from ten thousand to a million base pair scale. This includes chromosome territories, compartments, TADs, and chromatin loops. 
 
 
-<img src="images/hi-c-overview.jpg" width="500" height="300" />
+<img src="images/hi-c-overview.jpg" width="600" height="300" />
 
 ###### Image Source [[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)
 
@@ -152,7 +152,7 @@ First the DNA is crosslinked to keep DNA-DNA interactions in place. Then the DNA
 Each of these steps will be described in further detail below.
 
 
-<img src="images/dHiC.png" width="500" height="200" />
+<img src="images/dHiC.png" width="600" height="200" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93).
 
@@ -167,7 +167,7 @@ Alike 3C, we first crosslink cells with formaldehyde, allowing protein mediated 
 
 In crosslinking, the carbonyl carbon in formaldehyde is attacked by a strong nucleophile, most often the amino group in the side chain of a lysine residue in the protein, forming a methylol intermediate [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11). Then a schiff base reaction results in the hydrolysis of the methylol group into an imine [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11). A nucleophilic attack between a nucleophile in the DNA molecule and the carbon in the imine occurs producing the crosslinked product [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11). 
 
-<img src="images/formaldehyde.png" width="500" height="300" />
+<img src="images/formaldehyde.png" width="600" height="330" />
 
 ###### Image Source [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11)
 
@@ -196,7 +196,7 @@ These oligonucleotide adapters are biotinylated through the incorporation of Bio
 The use of biotin is necessary in this step, as it will allow us to select specifically for fragments displaying DNA-DNA interaction, in conjunction with streptavidin beads. This interaction is further explained in the upcoming Biotin Pulldown step. 
 
 
-<img src="images/biotinylation.png" width="500" height="300" />
+<img src="images/biotinylation.png" width="600" height="300" />
 
 ###### Image Source [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[6]](#which-biotin-modification-to-use-integrated-dna-technologies)
 
@@ -216,7 +216,7 @@ However, non-interacting DNA fragments were also likely bound by the biotinylate
 To do this, the solution is treated with Klenow Enzyme, which has a 3’ to 5’ exonuclease activity [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[9]](#hi-c-data-analysis-bootcamp-harvard-medical-school). This property of the exonuclease allows the enzyme to remove base pairs at the 5’ end. As the biotinylated oligonucleotide linker is at this end of unpaired DNA molecules, the biotinylated thymidine base is removed from non-interacting DNA-fragments only. 
 
 
-<img src="images/exonuclease.png" width="500" height="220" />
+<img src="images/exonuclease.png" width="600" height="230" />
 
 ###### Image Source [[9]](#hi-c-data-analysis-bootcamp-harvard-medical-school)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
@@ -231,7 +231,7 @@ A common chemical biology technique for the purification of proteins, nucleic ac
 
 Streptavidin can be purified into beads, an then used to extract molecules bound by biotin from a solution [[10]](#streptavidin-magnetic-beads). Such purification through biotinylation is used in Hi-C to isolate DNA fragments involved in DNA-DNA interactions from the rest of the genomic fragments.
 
-<img src="images/streptavidin.png" width="500" height="260" />
+<img src="images/streptavidin.png" width="600" height="330" />
 
 ###### Image Source [[8]](#the-origin-of-the-cooperativity-in-the-streptavidin-biotin-system-a-computational-investigation-through-molecular-dynamics-simulations-nature-627190)
 
@@ -242,7 +242,7 @@ Streptavidin can be purified into beads, an then used to extract molecules bound
 
 Now the retained DNA fragments are those representing DNA-DNA interactions. Adapters are ligated to the ends of the isolated nucleotides and the molecules are amplified using PCR and then sequenced [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[4]](#3d-genome-from-technology-to-visualization). 
 
-<img src="images/amplification.png" width="500" height="300" />
+<img src="images/amplification.png" width="600" height="330" />
 
 ###### Image Source [[7]](#ligation-based-library-preparation)
 
@@ -276,7 +276,7 @@ The higher the count of reads in a certain position in the matrix, the more inte
 Hi-C contact matrices, or heat maps, can also be visualized as triangular maps, where the bottom boundary of the triangular map corresponds to the diagonal of the square matrix, as seen in the images below this one. 
 
 
-<img src="images/da-overview.png" width="500" height="200" />
+<img src="images/da-overview.png" width="600" height="200" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
