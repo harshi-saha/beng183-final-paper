@@ -152,7 +152,7 @@ First the DNA is crosslinked to keep DNA-DNA interactions in place. Then the DNA
 Each of these steps will be described in further detail below.
 
 
-<img src="images/dHiC.png" width="600" height="230" />
+<img src="images/dHiC.png" width="800" height="270" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93).
 
