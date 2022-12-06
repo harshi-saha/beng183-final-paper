@@ -7,6 +7,8 @@ Group 4: Harshita Saha, Jordan Burkhardt, Carlos Garcia Padilla
 ---
 ## Table of Contents:
 
+#
+
 This report will provide details on the biological context of Hi-C, the workflow process, and an overview of Hi-C Data Analysis. The different sections of the report are listed and linked below for easy navigation:
 
 - [Genome Organization](#genome-organization): 
@@ -39,6 +41,8 @@ This report will provide details on the biological context of Hi-C, the workflow
 ---
 ## Genome Organization: 
 
+#
+
 In order to understand Hi-C, we must give context for the technology. Because Hi-C aims to analyze the organization of the genome, we will first talk about genome organization. 
 
 <img src="images/genome-organization.png" width="500" height="200" />
@@ -46,7 +50,10 @@ In order to understand Hi-C, we must give context for the technology. Because Hi
 ###### Image Source [[1]](#spatial-genome-organization-from-development-to-disease-frontiers-in-cell-and-developmental-biology-718)
 
 &nbsp;
+
+#
 ### Chromosome Territories: 
+#
 
 At the highest level, chromatin is organized in the nucleus such that each chromosome occupies its own subspace, known as chromosome territories. 
 
@@ -58,7 +65,10 @@ Chromatin from each chromosome tends to be grouped in its own spatially distinct
 
 
 &nbsp;
+
+#
 ### Chromatin Compartments:
+#
 
 Across the entire nucleus, chromosomes have regions with more open or closed chromatin. [[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180)
 
@@ -74,7 +84,10 @@ A compartments tend to interact with A compartments, while B compartments tend t
 
 
 &nbsp;
+
+#
 ### Topologically Associating Domains:
+#
 
 Focusing on chromosomes, we see TADs, Topologically Associating Domains. These self-interacting subunits are on the scale of a million base pairs, and regions within a TAD mutually display spatial proximity within each domain [[4]](#3d-genome-from-technology-to-visualization). 
 
@@ -88,7 +101,10 @@ TADs are usually associated with more active genes, and regions within a TAD int
 
 
 &nbsp;
+
+#
 ### Chromatin Loops:
+#
 
 On an even closer level, we see chromatin loops, which are protein or protein-complex mediated associations of two genomic loci, formed when proteins binds loci on a DNA strand simultaneously.
 
@@ -100,7 +116,10 @@ These structures are linked to the regulation of transcriptional processes, and 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
 &nbsp;
+
+#
 ### Purpose of Hi-C:
+#
 
 There are many different technologies that can be used to investigate genome organization on a genomic level.
 
@@ -129,8 +148,10 @@ Hi-C consists of systematically investigating genomic interactions and is all vs
 
 ---
 ## Hi-C Workflow:
+#
 
 ### Overview: 
+#
 
 The Hi-C workflow follows these steps. 
 
@@ -145,7 +166,10 @@ Each of these steps will be described in further detail below.
 
 
 &nbsp;
+
+#
 ### Cross Linking:
+#
 
 Hi-C follows a similar work-up to the other C methods, however its differences allow for probing all to all interactions. 
 
@@ -158,7 +182,10 @@ In crosslinking, the carbonyl carbon in formaldehyde is attacked by a strong nuc
 ###### Image Source [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11)
 
 &nbsp;
+
+#
 ### Digestion:
+#
 
 Next DNA must be fragmented. 
 
@@ -170,7 +197,10 @@ These interacting DNA fragments must next be ligated together, removed from the 
 
 
 &nbsp;
+
+#
 ### Biotinylation and Ligation:
+#
 
 An oligonucleotide adapter that has already been biotinylated is used to fill in the sticky overhanging ends, after which these ends are ligated together. This forms a loop on each side of the protein between the previously sticky ends of the two interacting DNA fragments [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415). 
 
@@ -184,7 +214,10 @@ The use of biotin is necessary in this step, as it will allow us to select speci
 ###### Image Source [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[6]](#which-biotin-modification-to-use-integrated-dna-technologies)
 
 &nbsp;
+
+#
 ### Reverse Crosslinking, Sonication, and Biotin Removal:
+#
 
 Now that the two interacting DNA molecules have been ligated together with a biotinylated linker, they must be removed from the protein they are crosslinked to. 
 
@@ -202,7 +235,10 @@ To do this, the solution is treated with Klenow Enzyme, which has a 3’ to 5’
 ###### Image Source [[9]](#hi-c-data-analysis-bootcamp-harvard-medical-school)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
 &nbsp;
+
+#
 ### Biotin Pulldown: 
+#
 
 Now to isolate the desired nucleotide polymers from the other genomic fragments, we can use streptavidin beads to pull down the biotinylated DNA fragments, allowing the isolation of only interacting DNA fragments. 
 
@@ -215,7 +251,10 @@ Streptavidin can be purified into beads, an then used to extract molecules bound
 ###### Image Source [[8]](#the-origin-of-the-cooperativity-in-the-streptavidin-biotin-system-a-computational-investigation-through-molecular-dynamics-simulations-nature-627190)
 
 &nbsp;
-### Ligation of Adapters and Amplification: 
+
+#
+### Ligation of Adapters and Amplification:
+# 
 
 Now the retained DNA fragments are those representing DNA-DNA interactions. Adapters are ligated to the ends of the isolated nucleotides and the molecules are amplified using PCR and then sequenced [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[4]](#3d-genome-from-technology-to-visualization). 
 
@@ -226,7 +265,10 @@ Now the retained DNA fragments are those representing DNA-DNA interactions. Adap
 
 
 &nbsp;
+
+#
 ### Comparison of Hi-C workflow to 3C and 4C:
+#
 
 Although restriction enzymes are necessary for 4C, this method only involves the use of primers specific to a specific nucleotide sequence whose interactions are being probed [[4]](#3d-genome-from-technology-to-visualization). Therefore in 4C, an oligonucleotide is not introduced in between the interacting DNA molecules, and instead ligation occurs immediately after cross-linking.
 
@@ -238,8 +280,10 @@ Likewise restriction enzymes are required for 3C, as DNA fragments cross-linked 
 
 ---
 ## Hi-C Data Analysis: 
+#
 
 ### Data Setup:
+#
 
 The data derived from the Hi-C workflow is analyzed using a contact matrix, that is a square matrix organized such that entries at position Mij indicate the number of reads for interaction between locus i and locus j of the genome [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93).
 
@@ -258,7 +302,10 @@ Hi-C contact matrices, or heat maps, can also be visualized as triangular maps, 
 
 
 &nbsp;
+
+#
 ### Chromosome Territories:
+#
 
 The image below visualizes the largest scale view of the Hi-C contact matrix, which includes all analyzed chromosomes part of the genome.
 
@@ -273,7 +320,10 @@ Higher contact frequency across the diagonal displays that there are significant
 
 
 &nbsp;
+
+#
 ### A/B Compartments:
+#
 
 Looking at the Hi-C map at a megabase resolution, which is just below the level at which chromosome territories were visualized, compartmentalization can be seen, as seen in the checkerboard pattern in both the triangular and the square contact matrices in the image below. 
 
@@ -293,7 +343,10 @@ B compartments, which are repressed and less active, are more likely to be on th
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[15]](#mechanisms-and-functions-of-chromosome-compartmentalization-trends-in-biochemical-sciences-455385-396)
 
 &nbsp;
+
+#
 ### TADs:
+#
 
 At the level below A/B compartments, TADs can be seen. 
 
@@ -309,7 +362,10 @@ These represent the self-interacting regions that are characteristic of TADs, an
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[17]](#topological-domains-in-mammalian-genomes-identified-by-analysis-of-chromatin-interactions-nature-485376-380)
 
 &nbsp;
+
+#
 ### Chromatin Loops:
+#
 
 Finally, looking within a single chromosome in the image below, the diagonal shows frequent interactions, both in the triangular and square matrices. 
 
@@ -330,12 +386,17 @@ These enriched dots represent chromatin loops that result from the interaction o
 
 ---
 ## Additional Resources:
+#
+
+[ADD ANOTHER BETTER SUMMARY HERE!]
 
 In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. A visual overview of these topics and their relation to each other can be seen below.
 
 <img src="images/summary.png" width="260" height="300" />
 
 ###### Image Source [[19]](#nuclear-compartments-genome-folding-and-enhancer-promoter-communication-international-review-of-cell-and-molecular-biology-315183-244)
+
+[ADD ANOTHER BETTER IMAGE HERE!]
 
 &nbsp;
 
@@ -351,6 +412,7 @@ In addition, these resources provide more detail about different aspects of Hi-C
 
 ---
 ## References:
+#
 
 1. Sivakumar, de las Heras, Schirmer. 2019. 
     #### [Spatial Genome Organization: From Development to Disease. Frontiers in Cell and Developmental Biology. 7:18.](https://www.researchgate.net/publication/331930839_Spatial_Genome_Organization_From_Development_to_Disease)
