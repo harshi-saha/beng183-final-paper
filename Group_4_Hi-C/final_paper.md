@@ -137,7 +137,6 @@ Hi-C consists of systematically investigating genomic interactions and is all vs
 
 ###### Image Source [[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)
 
-&nbsp;
 
 ---
 ## Hi-C Workflow:
@@ -158,8 +157,6 @@ Each of these steps will be described in further detail below.
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93).
 
 
-&nbsp;
-
 #
 ### Cross Linking:
 #
@@ -174,7 +171,6 @@ In crosslinking, the carbonyl carbon in formaldehyde is attacked by a strong nuc
 
 ###### Image Source [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11)
 
-&nbsp;
 
 #
 ### Digestion:
@@ -188,8 +184,6 @@ To produce sticky ends so that an oligonucleotide with 5’ overhangs can anneal
 
 These interacting DNA fragments must next be ligated together, removed from the protein, and isolated from all DNA fragments not involved in a DNA-DNA interaction before sequencing. 
 
-
-&nbsp;
 
 #
 ### Biotinylation and Ligation:
@@ -206,7 +200,6 @@ The use of biotin is necessary in this step, as it will allow us to select speci
 
 ###### Image Source [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[6]](#which-biotin-modification-to-use-integrated-dna-technologies)
 
-&nbsp;
 
 #
 ### Reverse Crosslinking, Sonication, and Biotin Removal:
@@ -227,7 +220,6 @@ To do this, the solution is treated with Klenow Enzyme, which has a 3’ to 5’
 
 ###### Image Source [[9]](#hi-c-data-analysis-bootcamp-harvard-medical-school)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
-&nbsp;
 
 #
 ### Biotin Pulldown: 
@@ -243,7 +235,6 @@ Streptavidin can be purified into beads, an then used to extract molecules bound
 
 ###### Image Source [[8]](#the-origin-of-the-cooperativity-in-the-streptavidin-biotin-system-a-computational-investigation-through-molecular-dynamics-simulations-nature-627190)
 
-&nbsp;
 
 #
 ### Ligation of Adapters and Amplification:
@@ -256,9 +247,6 @@ Now the retained DNA fragments are those representing DNA-DNA interactions. Adap
 ###### Image Source [[7]](#ligation-based-library-preparation)
 
 
-
-&nbsp;
-
 #
 ### Comparison of Hi-C workflow to 3C and 4C:
 #
@@ -269,7 +257,6 @@ After reverse cross-linking, a second ligation occurs to circularize the nucleot
 
 Likewise restriction enzymes are required for 3C, as DNA fragments cross-linked to the same protein must be ligated together, although only one ligation is necessary as primers for both nucleotides are used in PCR [[4]](#3d-genome-from-technology-to-visualization).
 
-&nbsp;
 
 ---
 ## Hi-C Data Analysis: 
@@ -294,8 +281,6 @@ Hi-C contact matrices, or heat maps, can also be visualized as triangular maps, 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
 
-&nbsp;
-
 #
 ### Chromosome Territories:
 #
@@ -311,8 +296,6 @@ Higher contact frequency across the diagonal displays that there are significant
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
-
-&nbsp;
 
 #
 ### A/B Compartments:
@@ -335,7 +318,6 @@ B compartments, which are repressed and less active, are more likely to be on th
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[15]](#mechanisms-and-functions-of-chromosome-compartmentalization-trends-in-biochemical-sciences-455385-396)
 
-&nbsp;
 
 #
 ### TADs:
@@ -354,7 +336,6 @@ These represent the self-interacting regions that are characteristic of TADs, an
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[17]](#topological-domains-in-mammalian-genomes-identified-by-analysis-of-chromatin-interactions-nature-485376-380)
 
-&nbsp;
 
 #
 ### Chromatin Loops:
@@ -375,7 +356,6 @@ These enriched dots represent chromatin loops that result from the interaction o
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[16]](#the-energetics-and-physiological-impact-of-cohesin-extrusion-cell-2018-may-17-1735-1165–1178e20)
 
-&nbsp;
 
 ---
 ## Additional Resources:
@@ -400,8 +380,6 @@ In addition, these resources provide more detail about different aspects of Hi-C
 - [Hi-C Data Analysis: TADs](https://www.youtube.com/watch?v=hg24ZIX06Tk&t=1067s) from STAT 115 at Harvard University.
 - [Hi-C Data Analysis: Chromatin Compartments](https://www.youtube.com/watch?v=wYd4Nf5D0yk&t=152s) from STAT 115 at Harvard University.
 
-
-&nbsp;
 
 ---
 ## References:
