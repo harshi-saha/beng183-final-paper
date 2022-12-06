@@ -6,7 +6,7 @@ Group 4: Harshita Saha, Jordan Burkhardt, Carlos Garcia Padilla
 
 ---
 ## Table of Contents:
----
+
 This report will provide details on the biological context of Hi-C, the workflow process, and an overview of Hi-C Data Analysis. The different sections of the report are listed and linked below for easy navigation:
 
 &nbsp;
@@ -42,7 +42,6 @@ This report will provide details on the biological context of Hi-C, the workflow
 
 ---
 ## Genome Organization: 
----
 
 In order to understand Hi-C, we must give context for the technology. Because Hi-C aims to analyze the organization of the genome, we will first talk about genome organization. 
 
@@ -134,7 +133,6 @@ Hi-C consists of systematically investigating genomic interactions and is all vs
 
 ---
 ## Hi-C Workflow:
----
 
 ### Overview: 
 
@@ -223,7 +221,7 @@ Streptavidin can be purified into beads, an then used to extract molecules bound
 &nbsp;
 ### Ligation of Adapters and Amplification: 
 
-Now the retained DNA fragments are those representing DNA-DNA interactions. Adapters are ligated to the ends of the isolated nucleotides and the molecules are amplified using PCR [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415) and then sequenced [[4]](#3d-genome-from-technology-to-visualization). 
+Now the retained DNA fragments are those representing DNA-DNA interactions. Adapters are ligated to the ends of the isolated nucleotides and the molecules are amplified using PCR and then sequenced [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[4]](#3d-genome-from-technology-to-visualization). 
 
 <img src="images/amplification.png" width="500" height="300" />
 
@@ -244,7 +242,6 @@ Likewise restriction enzymes are required for 3C, as DNA fragments cross-linked 
 
 ---
 ## Hi-C Data Analysis: 
----
 
 ### Data Setup:
 
@@ -337,7 +334,6 @@ These enriched dots represent chromatin loops that result from the interaction o
 
 ---
 ## Additional Resources:
----
 
 <img src="images/summary.png" width="260" height="300" />
 
@@ -357,7 +353,6 @@ These resources provide more detail about different aspects of Hi-C, and are val
 
 ---
 ## References:
----
 
 1. Sivakumar, de las Heras, Schirmer. 2019. 
     #### [Spatial Genome Organization: From Development to Disease. Frontiers in Cell and Developmental Biology. 7:18.](https://www.researchgate.net/publication/331930839_Spatial_Genome_Organization_From_Development_to_Disease)
