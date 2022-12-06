@@ -7,7 +7,6 @@ Group 4: Harshita Saha, Jordan Burkhardt, Carlos Garcia Padilla
 ---
 ## Table of Contents:
 
-#
 
 This report will provide details on the biological context of Hi-C, the workflow process, and an overview of Hi-C Data Analysis. The different sections of the report are listed and linked below for easy navigation:
 
@@ -41,7 +40,6 @@ This report will provide details on the biological context of Hi-C, the workflow
 ---
 ## Genome Organization: 
 
-#
 
 In order to understand Hi-C, we must give context for the technology. Because Hi-C aims to analyze the organization of the genome, we will first talk about genome organization. 
 
@@ -148,7 +146,7 @@ Hi-C consists of systematically investigating genomic interactions and is all vs
 
 ---
 ## Hi-C Workflow:
-#
+
 
 ### Overview: 
 #
@@ -280,7 +278,7 @@ Likewise restriction enzymes are required for 3C, as DNA fragments cross-linked 
 
 ---
 ## Hi-C Data Analysis: 
-#
+
 
 ### Data Setup:
 #
@@ -386,7 +384,7 @@ These enriched dots represent chromatin loops that result from the interaction o
 
 ---
 ## Additional Resources:
-#
+
 
 [ADD ANOTHER BETTER SUMMARY HERE!]
 
@@ -412,7 +410,6 @@ In addition, these resources provide more detail about different aspects of Hi-C
 
 ---
 ## References:
-#
 
 1. Sivakumar, de las Heras, Schirmer. 2019. 
     #### [Spatial Genome Organization: From Development to Disease. Frontiers in Cell and Developmental Biology. 7:18.](https://www.researchgate.net/publication/331930839_Spatial_Genome_Organization_From_Development_to_Disease)
