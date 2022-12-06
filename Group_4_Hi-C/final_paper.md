@@ -8,7 +8,9 @@ Group 4: Harshita Saha, Jordan Burkhardt, Carlos Garcia Padilla
 ## Table of Contents:
 
 
-This report will provide details on the biological context of Hi-C, the workflow process, and an overview of Hi-C Data Analysis. The different sections of the report are listed and linked below for easy navigation:
+This paper will provide details on the biological context of Hi-C, the workflow process, and an overview of Hi-C Data Analysis. 
+
+The different sections of the report are listed and linked below for easy navigation:
 
 - [Genome Organization](#genome-organization): 
   - [Chromosome Territories](#chromosome-territories)
@@ -63,8 +65,6 @@ Chromatin from each chromosome tends to be grouped in its own spatially distinct
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)
 
 
-&nbsp;
-
 #
 ### Chromatin Compartments:
 #
@@ -82,8 +82,6 @@ A compartments tend to interact with A compartments, while B compartments tend t
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)
 
 
-&nbsp;
-
 #
 ### Topologically Associating Domains:
 #
@@ -98,9 +96,6 @@ TADs are usually associated with more active genes, and regions within a TAD int
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
 
-
-&nbsp;
-
 #
 ### Chromatin Loops:
 #
@@ -114,7 +109,6 @@ These structures are linked to the regulation of transcriptional processes, and 
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
-&nbsp;
 
 #
 ### Purpose of Hi-C:
