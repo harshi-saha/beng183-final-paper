@@ -133,7 +133,7 @@ Although these technologies allow for information about DNA-DNA interactions to 
 Hi-C consists of systematically investigating genomic interactions and is all vs all, which means that it can detect all interactions between genomic loci, at a genome-wide level. It is specifically capable of looking at the tertiary level of genome organization, ranging from ten thousand to a million base pair scale. This includes chromosome territories, compartments, TADs, and chromatin loops. 
 
 
-<img src="images/hi-c-overview.jpg" width="600" height="300" />
+<img src="images/hi-c-overview.jpg" width="600" height="330" />
 
 ###### Image Source [[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)
 
@@ -152,7 +152,7 @@ First the DNA is crosslinked to keep DNA-DNA interactions in place. Then the DNA
 Each of these steps will be described in further detail below.
 
 
-<img src="images/dHiC.png" width="600" height="200" />
+<img src="images/dHiC.png" width="600" height="230" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93).
 
@@ -167,7 +167,7 @@ Alike 3C, we first crosslink cells with formaldehyde, allowing protein mediated 
 
 In crosslinking, the carbonyl carbon in formaldehyde is attacked by a strong nucleophile, most often the amino group in the side chain of a lysine residue in the protein, forming a methylol intermediate [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11). Then a schiff base reaction results in the hydrolysis of the methylol group into an imine [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11). A nucleophilic attack between a nucleophile in the DNA molecule and the carbon in the imine occurs producing the crosslinked product [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11). 
 
-<img src="images/formaldehyde.png" width="600" height="330" />
+<img src="images/formaldehyde.png" width="600" height="360" />
 
 ###### Image Source [[3]](#formaldehyde-crosslinking-a-tool-for-the-study-of-chromatin-complexes-journal-of-biology-and-biochemistry-2904426404-11)
 
@@ -196,7 +196,7 @@ These oligonucleotide adapters are biotinylated through the incorporation of Bio
 The use of biotin is necessary in this step, as it will allow us to select specifically for fragments displaying DNA-DNA interaction, in conjunction with streptavidin beads. This interaction is further explained in the upcoming Biotin Pulldown step. 
 
 
-<img src="images/biotinylation.png" width="600" height="300" />
+<img src="images/biotinylation.png" width="600" height="330" />
 
 ###### Image Source [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[6]](#which-biotin-modification-to-use-integrated-dna-technologies)
 
@@ -216,7 +216,7 @@ However, non-interacting DNA fragments were also likely bound by the biotinylate
 To do this, the solution is treated with Klenow Enzyme, which has a 3’ to 5’ exonuclease activity [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[9]](#hi-c-data-analysis-bootcamp-harvard-medical-school). This property of the exonuclease allows the enzyme to remove base pairs at the 5’ end. As the biotinylated oligonucleotide linker is at this end of unpaired DNA molecules, the biotinylated thymidine base is removed from non-interacting DNA-fragments only. 
 
 
-<img src="images/exonuclease.png" width="600" height="230" />
+<img src="images/exonuclease.png" width="600" height="270" />
 
 ###### Image Source [[9]](#hi-c-data-analysis-bootcamp-harvard-medical-school)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
@@ -231,7 +231,7 @@ A common chemical biology technique for the purification of proteins, nucleic ac
 
 Streptavidin can be purified into beads, an then used to extract molecules bound by biotin from a solution [[10]](#streptavidin-magnetic-beads). Such purification through biotinylation is used in Hi-C to isolate DNA fragments involved in DNA-DNA interactions from the rest of the genomic fragments.
 
-<img src="images/streptavidin.png" width="600" height="330" />
+<img src="images/streptavidin.png" width="600" height="340" />
 
 ###### Image Source [[8]](#the-origin-of-the-cooperativity-in-the-streptavidin-biotin-system-a-computational-investigation-through-molecular-dynamics-simulations-nature-627190)
 
@@ -242,7 +242,7 @@ Streptavidin can be purified into beads, an then used to extract molecules bound
 
 Now the retained DNA fragments are those representing DNA-DNA interactions. Adapters are ligated to the ends of the isolated nucleotides and the molecules are amplified using PCR and then sequenced [[5]](#a-cookbook-for-dnase-hi-c-epigenetics--chromatin-1415)[[4]](#3d-genome-from-technology-to-visualization). 
 
-<img src="images/amplification.png" width="600" height="330" />
+<img src="images/amplification.png" width="600" height="340" />
 
 ###### Image Source [[7]](#ligation-based-library-preparation)
 
@@ -276,7 +276,7 @@ The higher the count of reads in a certain position in the matrix, the more inte
 Hi-C contact matrices, or heat maps, can also be visualized as triangular maps, where the bottom boundary of the triangular map corresponds to the diagonal of the square matrix, as seen in the images below this one. 
 
 
-<img src="images/da-overview.png" width="600" height="200" />
+<img src="images/da-overview.png" width="800" height="230" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)[[14]](#hi-c-20-an-optimized-hi-c-procedure-for-high-resolution-genome-wide-mapping-of-chromosome-conformation-pubmed-12356-65)
 
@@ -292,7 +292,7 @@ Here the Hi-C contact matrix shows significantly higher intensity of colors, and
 Higher contact frequency across the diagonal displays that there are significantly more frequent intra-chromosome than inter-chromosome interactions [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678). This supports the existence and understanding of chromosome territories.
 
 
-<img src="images/da-territories.png" width="500" height="140" />
+<img src="images/da-territories.png" width="800" height="170" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
@@ -314,7 +314,7 @@ A compartments are characterized by more open chromatin and higher transcription
 B compartments, which are repressed and less active, are more likely to be on the borders of the nucleus, closer to the lamina, though regions inside can also be B compartments. A B switching can also occur, which is related to gene expression [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678).
 
 
-<img src="images/da-compartments.png" width="500" height="140" />
+<img src="images/da-compartments.png" width="800" height="170" />
 
 ###### Image Source [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[15]](#mechanisms-and-functions-of-chromosome-compartmentalization-trends-in-biochemical-sciences-455385-396)
 
@@ -332,7 +332,7 @@ Within these labeled triangles, there is a higher frequency of interactions, ind
 These represent the self-interacting regions that are characteristic of TADs, and also supports the fact that DNA-DNA interactions occur more frequently within a TAD, than DNA sequences from a TAD interacting with sequences outside the TAD [[18]](#the-hitchhikers-guide-to-hi-c-analysis-practical-guidelines-methods-201572-65–75). 
 
 
-<img src="images/da-domains.png" width="500" height="140" />
+<img src="images/da-domains.png" width="800" height="170" />
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[17]](#topological-domains-in-mammalian-genomes-identified-by-analysis-of-chromatin-interactions-nature-485376-380)
 
@@ -352,7 +352,7 @@ However, there are some instances where there is an enriched dot that can be see
 These enriched dots represent chromatin loops that result from the interaction of the corresponding loci in the matrix [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[20]](#a-3d-map-of-the-human-genome-at-kilobase-resolution-reveals-principles-of-chromatin-looping-cell-15971665-80). 
 
 
-<img src="images/da-loops.png" width="500" height="160" />
+<img src="images/da-loops.png" width="800" height="170" />
 
 ###### Image Source [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)[[16]](#the-energetics-and-physiological-impact-of-cohesin-extrusion-cell-2018-may-17-1735-1165–1178e20)
 
@@ -360,11 +360,11 @@ These enriched dots represent chromatin loops that result from the interaction o
 ---
 ## Additional Resources:
 
-In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. For genome organization, chromosome territories, A/B compartments, TADs, and chromatin loops were discussed. Then the workflow of Hi-C was described, and was compared to wrokflows for 3C and 4C. Finally, an overview of hi_C Data Analysis was provided, pertaining to all the units of genome organization discussed in this paper.   
+In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. For genome organization, chromosome territories, A/B compartments, TADs, and chromatin loops were discussed. Then the workflow of Hi-C was described, and was compared to workflows for 3C and 4C. Finally, an overview of hi_C Data Analysis was provided, pertaining to all the units of genome organization discussed in this paper.   
 
 A visual summary of these topics and their relation to each other can be seen below.
 
-<img src="images/summary.png" width="250" height="300" /><img src="images/summary-2.png" width="250" height="300" />
+<img src="images/summary.png" width="270" height="320" /><img src="images/summary-2.png" width="270" height="320" />
 
 ###### Image Source [[19]](#nuclear-compartments-genome-folding-and-enhancer-promoter-communication-international-review-of-cell-and-molecular-biology-315183-244)[[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678)
 
