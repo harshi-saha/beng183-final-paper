@@ -180,7 +180,7 @@ Next DNA must be fragmented.
 
 In other locus technologies such as ChIP-seq, this can be done through sonication, however in methods like Hi-C and 4C, sticky ends are required for biotinylation. 
 
-To produce sticky ends so that an oligonucleotide with 5’ overhangs can anneal the two DNA molecules, restriction enzymes must be used. At this step, we expect two fragments of interating DNA with sticky ends both crosslinked to a protein. 
+To produce sticky ends so that an oligonucleotide with 5’ overhangs can anneal the two DNA molecules, restriction enzymes must be used. At this step, we expect two fragments of interacting DNA with sticky ends both crosslinked to a protein. 
 
 These interacting DNA fragments must next be ligated together, removed from the protein, and isolated from all DNA fragments not involved in a DNA-DNA interaction before sequencing. 
 
@@ -229,7 +229,7 @@ Now to isolate the desired nucleotide polymers from the other genomic fragments,
 
 A common chemical biology technique for the purification of proteins, nucleic acids and other molecules from a solution involves the use of the protein-ligand binding of biotin and streptavidin. The active site of the protein streptavidin forms eight hydrogen bonds with biotin, and uses non-polar groups to interact with the molecule through van-der-waals interactions [[8]](#the-origin-of-the-cooperativity-in-the-streptavidin-biotin-system-a-computational-investigation-through-molecular-dynamics-simulations-nature-627190). These interactions, shown below, allow the biotinylated molecules to stay with the streptavidin beads while other molecules are washed away. 
 
-Streptavidin can be purified into beads, an then used to extract molecules bound by biotin from a solution [[10]](#streptavidin-magnetic-beads). Such purification through biotinylation is used in Hi-C to isolate DNA fragments involved in DNA-DNA interactions from the rest of the genomic fragments.
+Streptavidin can be purified into beads, and then used to extract molecules bound by biotin from a solution [[10]](#streptavidin-magnetic-beads). Such purification through biotinylation is used in Hi-C to isolate DNA fragments involved in DNA-DNA interactions from the rest of the genomic fragments.
 
 <img src="images/streptavidin.png" width="600" height="340" />
 
