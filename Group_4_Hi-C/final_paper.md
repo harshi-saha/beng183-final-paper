@@ -267,7 +267,7 @@ Likewise restriction enzymes are required for 3C, as DNA fragments cross-linked 
 
 The data derived from the Hi-C workflow is analyzed using a contact matrix, that is a square matrix organized such that entries at position Mij indicate the number of reads for interaction between locus i and locus j of the genome [[2]](#comprehensive-mapping-of-long-range-interactions-reveals-folding-principles-of-the-human-genome-science-3265950-289-93).
 
-Sequenced reads derived from the Hi-C workflow are mapped back to the reference genome and are placed in bins based on their relative positions in the genome. [[18]](#the-hitchhikers-guide-to-hi-c-analysis-practical-guidelines-methods-201572-65–75).
+Sequenced reads derived from the Hi-C workflow are mapped back to the reference genome and are placed in bins based on their relative positions in the genome [[18]](#the-hitchhikers-guide-to-hi-c-analysis-practical-guidelines-methods-201572-65–75).
 
 These bins are what make up the data matrix, and the sizes of the bins respond to the lengths of the sequences, which in turn correspond to the resolution of the data [[11]](#reconstructing-ab-compartments-as-revealed-by-hi-c-using-long-range-correlations-in-epigenetic-data-genome-biology-180). 
 
@@ -345,7 +345,7 @@ Finally, looking within a single chromosome in the image below, the diagonal sho
 
 The lower boundary, or diagonal, of the triangular matrix has a higher color intensity and is therefore enriched for interactions, meaning that regions closer to each other had more frequent interactions. 
 
-The top corner of the triangle represents interaction between the farthest ends of the map shown here, and we can observe that interaction mostly decreases the further apart the loci are. A similar phenomenon is observed in the square matrix, as loci pairs move away from the diagonal.[[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)[[20]](#a-3d-map-of-the-human-genome-at-kilobase-resolution-reveals-principles-of-chromatin-looping-cell-15971665-80).
+The top corner of the triangle represents interaction between the farthest ends of the map shown here, and we can observe that interaction mostly decreases the further apart the loci are  [[13]](#defining-functionally-relevant-spatial-chromatin-domains-it-is-a-tad-complicated-journal-of-molecular-biology-4323653-664)[[20]](#a-3d-map-of-the-human-genome-at-kilobase-resolution-reveals-principles-of-chromatin-looping-cell-15971665-80). A similar phenomenon is observed in the square matrix, as loci pairs move away from the diagonal.
 
 However, there are some instances where there is an enriched dot that can be seen at the intersection of the dotted lines in the triangular matrix [[12]](#organization-and-function-of-the-3d-genome-nature-reviews-genetics-17-661–678). A similar pattern occurs in the square map on the right, with these enriched regions being circled. 
 
