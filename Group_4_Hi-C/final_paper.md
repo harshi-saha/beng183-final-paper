@@ -360,7 +360,7 @@ These enriched dots represent chromatin loops that result from the interaction o
 ---
 ## Additional Resources:
 
-In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. For genome organization, chromosome territories, A/B compartments, TADs, and chromatin loops were discussed. Then the workflow of Hi-C was described, and was compared to workflows for 3C and 4C. Finally, an overview of hi_C Data Analysis was provided, pertaining to all the units of genome organization discussed in this paper.   
+In summary, this paper discussed genome organization, the Hi-C workflow, and the basics of Hi-C Data Analysis. For genome organization, chromosome territories, A/B compartments, TADs, and chromatin loops were discussed. Then the workflow of Hi-C was described, and was compared to workflows for 3C and 4C. Finally, an overview of Hi-C Data Analysis was provided, pertaining to all the units of genome organization discussed in this paper.   
 
 A visual summary of these topics and their relation to each other can be seen below.
 
