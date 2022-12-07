@@ -124,13 +124,13 @@ Although those technologies probe DNA sequences associated with proteins, we nee
 
 Methods that seek to measure DNA-DNA interactions are known as locus-locus technologies. This includes technologies such as 3C, 4C, ChIA-Pet, and Hi-C [[4]](#3d-genome-from-technology-to-visualization). 
 
-In 3-C, chromatin is crosslinked, DNA is fragmented, and then primers are used for two DNA sequences of interest. This allows a one vs. one probing of DNA interactions in the genome [[4]](#3d-genome-from-technology-to-visualization). 
+In 3C, chromatin is crosslinked, DNA is fragmented, and then primers are used for two DNA sequences of interest. This allows a one vs. one probing of DNA interactions in the genome [[4]](#3d-genome-from-technology-to-visualization). 
 
 4C is an adaptation of this method which allows for one to many probing of DNA interactions [[4]](#3d-genome-from-technology-to-visualization). 
 
 Although these technologies allow for information about DNA-DNA interactions to be collected, they are limited in scope as there must be specificity for one or both genes in the interaction. 
 
-Hi-C consists of systematically investigating genomic interactions and is all vs all, which means that it can detect all interactions between genomic loci, at a genome-wide level. It is specifically capable of looking at the tertiary level of genome organization, ranging from ten thousand to a million base pair scale. This includes chromosome territories, compartments, TADs, and chromatin loops. 
+Hi-C also consists of systematically investigating genomic interactions, but is all vs all, which means that it can detect all interactions between genomic loci, at a genome-wide level. It is specifically capable of looking at the tertiary level of genome organization, ranging from ten thousand to a million base pair scale. This includes chromosome territories, compartments, TADs, and chromatin loops. 
 
 
 <img src="images/hi-c-overview.jpg" width="600" height="330" />
